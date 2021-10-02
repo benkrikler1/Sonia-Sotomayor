@@ -1,0 +1,148 @@
+html {
+    background-color: #dfb380;
+    margin: 
+}
+
+header {
+    background-color: #E0AE92;
+}
+
+.header-content {
+    width: 50vw;
+    display: flex;
+    margin: auto auto;
+    padding: 1em 0em;
+}
+
+.header-text {
+    order: 2;
+    margin: auto 0;
+    padding-left: 2.25em;
+    max-width: 25vw;
+}
+
+.header-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .89em;
+    line-height: 1em;
+    margin-top: -2em;
+}
+.header-text h1 {
+    font-size: 3em;
+    line-height: 1.1em;
+    font-family: 'Crete Round', sans-serif;
+    letter-spacing: 1pt;
+}
+
+.header-img {
+    order: 1;
+    margin: auto 0;
+    padding-left: 4em;
+}
+
+.header-img img {
+    max-width: 25vw;
+    max-height: 25vh;
+}
+
+.content-row-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.bio-section {
+    background-color: #f7bdb5;
+    max-width: 40vw;
+    height: 65vh;
+    max-height: 90vh;
+    margin-left: 2em;
+    margin-top: 2em;
+    flex: 50%;
+}
+
+.bio-section-content {
+    padding: 0em 2em;
+    display: inline-block;
+}
+
+.bio-section-content h2 {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 2em;
+}
+
+#bio-img {
+    max-width: 40%;
+    align-self: center;
+}
+
+.bio-row-1 {
+    display: flex;
+}
+
+.bio-row-1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .89em;
+    margin-right: 1em;
+    order: 1;
+}
+
+.bio-row-1 img {
+    order: 2;
+}
+
+.bio-row-2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .89em;
+}
+
+.family-section {
+    display: flex;
+    background-color: #f7bdb5;
+    margin: 2em 2em;    
+    width: 50%;
+    padding-bottom: 2em;
+}
+
+.family-section-content {
+    margin: 0em 2em;
+    max-width: 100%;
+}
+
+.family-section-content h2 {
+    font-size: 2em;
+    font-family: 'Crete Round', sans-serif;
+}
+
+.family-section-content h3 {
+    font-size: 1.75em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.family-section-content p {
+    font-size: .89em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.family-row-1 {
+    display: flex;
+    width: 100%;
+}
+
+.family-column {
+    padding: 1em 2em;
+    min-width: 35%;
+    border-style: solid;
+    margin: 0 1em;
+    border-color: black;
+    border-radius: 30px;
+    
+}
+
+#sonia-mom-img {
+    max-width: 90%;
+}
+
+#sonia-dad-img {
+    max-width: 90%;
+}
