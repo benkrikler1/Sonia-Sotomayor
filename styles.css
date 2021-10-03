@@ -1,6 +1,6 @@
 html {
     background-color: #dfb380;
-    margin: 
+    margin: -.5em -.5em;
 }
 
 header {
@@ -130,19 +130,34 @@ header {
 }
 
 .family-column {
-    padding: 1em 2em;
+    padding: .5em 1em;
     min-width: 35%;
     border-style: solid;
     margin: 0 1em;
     border-color: black;
     border-radius: 30px;
-    
+    text-align: center;
 }
 
+#column-mom {
+    flex: 50%;
+}
+
+
 #sonia-mom-img {
-    max-width: 90%;
+    max-width: 80%;
 }
 
 #sonia-dad-img {
-    max-width: 90%;
+    max-width: 65%;
 }
+
+footer {
+    padding: 1em 1em;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
